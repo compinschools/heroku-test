@@ -11,8 +11,8 @@ const port = process.env.PORT || 3001;
 const { Ad } = require('../models/ad');
 const { User } = require('../models/user');
 //uri mongodb+srv://mongo-colin:p4ssw0rd@cluster0.ywlkz.mongodb.net/adverts?retryWrites=true&w=majority
-//mongoose.connect('mongodb+srv://mongo-colin:p4ssw0rd@cluster0.ywlkz.mongodb.net/adverts?retryWrites=true&w=majority');
-mongoose.connect('mongodb+srv://Manpreet:Manpreet12@cluster0.yu4hvoo.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://mongo-colin:p4ssw0rd@cluster0.ywlkz.mongodb.net/adverts?retryWrites=true&w=majority');
+//mongoose.connect('mongodb+srv://Manpreet:Manpreet12@cluster0.yu4hvoo.mongodb.net/?retryWrites=true&w=majority');
 // defining the Express app
 const app = express();
 
